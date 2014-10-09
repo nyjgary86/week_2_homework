@@ -35,11 +35,36 @@ a:active {
   border-top: 0px;
 }
 
-.column {
+.split {
+  clear: both;
+}
+
+.colspan33 {
   float: left;
   width: 33%;
-  border-top: 20px;
-  border-bottom: 20px;
+/*  border-top: 20px;
+  border-bottom: 20px;*/
+}
+
+.colspan66 {
+  float: left;
+  width: 66%;
+/*  border-top: 20px;
+  border-bottom: 20px;*/
+}
+
+.colspan25 {
+  float: left;
+  width: 25%;
+/*  border-top: 20px;
+  border-bottom: 20px;*/
+}
+
+.colspan100 {
+  float: left;
+  width: 100%;
+/*  border-top: 20px;
+  border-bottom: 20px;*/
 }
 
 .button {
@@ -48,5 +73,6 @@ a:active {
   background-color: blue;
   border-radius: 20px;
   text-align: center;
-
 }
+
+
